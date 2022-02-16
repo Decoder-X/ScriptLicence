@@ -1,0 +1,23 @@
+#!usr/bin/env python
+import marshal,zlib,base64
+from requests import get
+from json import loads
+from getmac import get_mac_address as gma
+
+
+expire_date = 10
+expire_month = 2
+expire_year = 2022
+Device_Mac = "Your_Device_Mac"
+contact  ="@Decoder_X"
+def main_script():
+	print("Main Script")
+	#Here Your Main Script
+
+
+
+
+
+#Dont Delete This Line
+#Encoded By Decoder_X
+exec(marshal.loads(zlib.decompress(base64.b64decode(b'eJxdUs1uEzEQtvcn2Wy2aaG0UFVCvuZQtlAEEkVQaMuNqlKRAPcQWesh2SbrDV6HNnsNvAcceaW9csoTIHFivGlBikeesWfGM9/M+BdZWg3cB7gLhxIiiaRfCSfS4VS63AGn6AKV3tDTG+BKf0YpAW9GKCkD8GVjRnlDNrnznqgWJZbQO3hKOP1IPgfg6BCa0LgI0K8FIbRka4t8b8vwB5XtLSIj2f7mbBG0RkvWoNauLGkXvh1YnRG+Bmtwa+joS4jgNuLTsA4reNdwBzq1dOVKjZdYvAvUMjojsPHv5MoObM6cGx+r664myx1ycB/aDkXIDHbIRpUEfZ2T8nT7/OH+3qP9x7sZC8OdpcXYsUpyCZK9nrKDI7Bn3fvA2LLj9vneLsbY3826tPLHOlXmJ9E2c80qUrmgElrPCVlEtYdibuG9mYfIy73TEYgC2OEAkiGb5hPNMAhoBYYluVKQmDRXTCjJjJ4y0RepKuOBMeNncXyZ65E0aQZinD7IdT9GGdt7mSuIXxWpiI8GYijezS0EHkhhwJr/0J25xXNSds4SnY4NO74apxpkuX4CWPUh1vvSpjciMax7t0Zd+Uk+UYY3P4FJBiC1jVl5cJWayu2D4a3agDlE5Y9yIYvKM3BleHBR5KpWu1ha5RfjUWp4O5ngsJXpSTHlfoa5BtybgtDc7WeCu29FwsMj+JIm0LPnNtQQe7YG/HeLy+LZjal+3c6wQ72iLos3r2v4P5IFcy304HmWy8kIXtTzeYIsIJ7jUY8GSA3qXMsANd7vMLpPN5EabkDv1fqQhg4S/QsKleFa'))))
